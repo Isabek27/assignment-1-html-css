@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #4CAF50;
+}
+
+/* --- for Task 1, 2 и 3 ---*/
+.main-card {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.subtitle {
+    color: gray;
+    font-style: italic;
+}
+
+.photo {
+    max-width: 200px;
+    margin:0 auto;
+    border:3px solid black;
+    border-radius: 5%;
+    display: block;
+}
+
+.lmsgit {
+    background-color: #000000;
+    width:150px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.lmsgit:visited {
+    color:white;
+}
+
+.lmsgit:hover {
+    background-color:lightseagreen;
+}
+
+/* --- Task - 2 (Layout) --- */
+
+.header {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    width: 25%;
+    float: left;
+    background-color: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.rightbtn {
+    display:block;
+    background-color: grey;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    line-height: 1.4;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.main-content {
+    width: 70%;
+    float: right;
+    background-color: #fafafa;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.footer {
+    background-color: #ddd;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.rightbtn:visited {
+    color:white;
+}
+
+.rightbtn:hover {
+    background-color: green;
+}
+
+/* --- Task 3 (Tribute) --- */
+
+.tribute-img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.caption {
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+
+/* ---  Task 4 (Table&Form) --- */
+
+.simple-table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-bottom: 20px;
+}
+
+.simple-table th, 
+.simple-table td {
+    border: 1px solid black; 
+    padding: 10px;
+    text-align: left;
+}
+
+.simple-table th {
+    background-color: #eee;
+}
+
+.divider {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.simple-form label {
+    display: block;          
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.simple-form input, 
+.simple-form select, 
+.simple-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;  
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit-btn:hover {
+    background-color: #4CAF50; 
+}

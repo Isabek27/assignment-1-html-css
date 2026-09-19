@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4 - Table and Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Main Menu</a>
+        <a href="task1.html">Task 1: Profile</a>
+        <a href="task2.html">Task 2: Layout</a>
+        <a href="task3.html">Task 3: Tribute</a>
+        <a href="task4.html">Task 4: Table</a>
+    </div>
+
+    <div class="main-card">
+        
+        <h2>Course Schedule (Table)</h2>
+        
+        <table class="simple-table">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Subject</th>
+                    <th>Room</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Web Technologies 1</td>
+                    <td>C1.2.228</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Operating Systems</td>
+                    <td>C1.2.230</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Russian Language</td>
+                    <td>C1.1.210</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr class="divider">
+
+        <h2>Contact Form</h2>
+
+        <form class="simple-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="topic">Select Topic:</label>
+            <select id="topic" name="topic">
+                <option value="general">General Question</option>
+                <option value="project">Project Feedback</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
